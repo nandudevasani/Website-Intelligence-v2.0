@@ -1,24 +1,3 @@
-# Windows (CMD)
-notepad .gitignore
-
-# Windows (PowerShell)
-New-Item .gitignore
-
-# Mac/Linux
-touch .gitignore
-```
-Then paste this content:
-```
 node_modules/
-.env
-.env.local
-.env.production
-logs/
-*.log
-npm-debug.log*
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-dist/
-build/
+npm-debug.log*
